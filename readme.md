@@ -18,5 +18,5 @@ To download the build:
 
 To run the build:
 ---------------------------------------------------------------
-1. Install Jake globally: "npm install jake -g";
-2. run jake `jake`.
+1. Rebuild dependencies: `npm rebuild`
+2. Run jake: `node_modules/.bin/jake`
