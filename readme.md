@@ -18,4 +18,5 @@ To download the build:
 
 To run the build:
 ---------------------------------------------------------------
-1. In a command prompt, type `node build.js`.
+1. Install Jake globally: "npm install jake -g";
+2. run jake `jake`.
