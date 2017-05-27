@@ -17,10 +17,10 @@
 
   desc("Lint JavaScript code");
   task("lint", function() {
-    console.log("Linting JavaScript: ");
+    process.stdout.write("Linting JavaScript: ");
 
     jshint.checkFiles({
-      files: "Jakefile.js",
+      files: [ "Jakefile.js", "src/**/*.js" ],
       options: {
         bitwise: true,
 				eqeqeq: true,
