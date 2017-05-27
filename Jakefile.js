@@ -45,7 +45,8 @@
 		karma.run({
 			configFile: KARMA_CONFIG,
 			expectedBrowsers: [
-					"Firefox 45.0.0 (Linux 0.0.0)"
+					// "Firefox 45.0.0 (Linux 0.0.0)"
+					"Firefox 53.0.0 (Mac OS X 10.11.0)"
 				],
 			strict: !process.env.loose
 		}, complete, fail);
