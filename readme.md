@@ -18,7 +18,9 @@ To download the build:
 
 To run the build:
 ---------------------------------------------------------------
-1. Run `./jake.sh`
+1. Run `./jake.sh karma`
+2. Open `http://localhost:9876` in a browser
+3. Run `./jake.sh`
 
 To run http server:
 ---------------------------------------------------------------
