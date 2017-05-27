@@ -27,3 +27,4 @@ To run the build:
 To run http server:
 ---------------------------------------------------------------
 1. Run `./jake.sh run`
+2. Navigate browser to `http://localhost:8080`
