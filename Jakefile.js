@@ -5,6 +5,11 @@
 
   var jshint = require("simplebuild-jshint");
 
+	desc("Start the Karma server (run this first)");
+	task("karma", function() {
+		console.log("Starting Karma server: ");
+	});
+
 	desc("Default build");
 	task("default", [ "lint" ], function() {
 		console.log("\n\nBUILD OK");
@@ -53,7 +58,7 @@
 			it: false,
 			before: false,
 			after: false,
-			beforeEach: fa	lse,
+			beforeEach: false,
 			afterEach: false
 		};
 	}
